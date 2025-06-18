@@ -2,6 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 import time
+import os
+API_KEY = os.getenv("d180r99r01qteuvqhmk0d180r99r01qteuvqhmkg")
 
 API_KEY = 'd180r99r01qteuvqhmk0d180r99r01qteuvqhmkg'
 symbols = {
